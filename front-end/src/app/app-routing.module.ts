@@ -1,3 +1,4 @@
+import { DashboadsComponent } from './components/dashboads/dashboads.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AgendaFormComponent } from './components/agenda-form/agenda-form.component';
@@ -35,8 +36,9 @@ const routes: Routes = [
       { path: 'especialidades', component: EspecialidadeListComponent },
       { path: 'especialidades/form', component: EspecialidadeFormComponent },
       { path: 'usuarios', component: UsuarioListComponent },
-      { path: 'usuarios/form', component: UsuarioFormComponent }
-    ] }
+      { path: 'usuarios/form', component: UsuarioFormComponent },
+    ] },
+    { path: 'dashboard', component: DashboadsComponent },
   ]},
   { path: 'login', component: LoginComponent }
 ];

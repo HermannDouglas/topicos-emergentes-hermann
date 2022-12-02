@@ -25,6 +25,8 @@ import { UnidadeListComponent } from './components/unidade-list/unidade-list.com
 import { UnidadeFormComponent } from './components/unidade-form/unidade-form.component';
 import { UsuarioListComponent } from './components/usuario-list/usuario-list.component';
 import { UsuarioFormComponent } from './components/usuario-form/usuario-form.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboadsComponent } from './components/dashboads/dashboads.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { UsuarioFormComponent } from './components/usuario-form/usuario-form.com
     UnidadeListComponent,
     UnidadeFormComponent,
     UsuarioListComponent,
-    UsuarioFormComponent
+    UsuarioFormComponent,
+    DashboardComponent,
+    DashboadsComponent,
   ],
   imports: [
     BrowserModule,

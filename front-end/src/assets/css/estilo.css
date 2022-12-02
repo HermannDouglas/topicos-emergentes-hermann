@@ -375,3 +375,14 @@ div.alerta.sucesso {
     color: #006f05;
     border-color: #006f05;
 }
+
+/* Dashboard */
+app-dashboard {
+    display: block;
+    height: 90vh;
+}
+
+app-dashboard iframe {
+    height: 100%;
+    width: 100%;
+}
